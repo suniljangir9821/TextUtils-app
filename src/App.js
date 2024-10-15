@@ -6,6 +6,7 @@ import TextutilsForm from "./components/TextutilsForm";
 // import About from "./Components/About";
 
 import React from "react";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
       <Alert alert={alert} />
       <TextutilsForm mode={mode} showAlert={showAlert} />
       {/* <About /> */}
+      <Footer mode={mode} />
     </>
   );
 }
